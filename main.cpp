@@ -30,7 +30,7 @@ int main() {
     end = systemTimeNanoseconds();
     cout << "Time taken (nanoseconds): " << end - start << endl << endl;
 
-    cout << "Binary Search" << endl;
+    cout << "Binary Search" << endl; // outputs results for binary
     start = systemTimeNanoseconds();
     cout << "Result: " << binarySearch(data, "not_here") << endl;
     end = systemTimeNanoseconds();

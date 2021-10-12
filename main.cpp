@@ -16,7 +16,7 @@ int binarySearch(vector<string>, string);
 int main() {
     // starting and ending times in nanoseconds
     long long start;
-    long long end;
+    long long end; //creates varibles
 
     // data pulled from header file
     vector<string> data = getStringData();

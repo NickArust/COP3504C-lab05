@@ -19,7 +19,7 @@ int main() {
     long long end; //creates varibles
 
     // data pulled from header file
-    vector<string> data = getStringData();
+    vector<string> data = getStringData(); // imports data
 
     // first test
     cout << endl << "Test 1: \"not_here\"" << endl;
